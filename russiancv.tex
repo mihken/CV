@@ -1,0 +1,139 @@
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\documentclass[10pt,a4paper,ragged2e]{maltacv}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel} 
+\usepackage[T1]{fontenc}
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault} 
+\usepackage{setspace}
+
+\usepackage{mathpazo}
+\usepackage{textcomp}
+\usepackage{multicol}
+
+\setcolorscheme{blue}
+\setlength\multicolsep{0pt}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+
+\name{Савчеко Михаил}
+\firstname{Михаил}
+\familyname{Савченко}
+
+\begin{document}
+\tagline{Студент 1 курса Факультета компьютерных наук НИУ ВШЭ}
+\personalinfo{
+  \email{mishka.savchenko@bk.ru}
+  \birthday{07.07.2001}
+  \phone{+79653279003}
+  \telegram{Russianmikhail}
+}
+
+\bio{Для меня главное в жизни -  не стоять на месте. Поэтому стараюсь не проводить время праздно, а всегда находить полезные занятия: занимаюсь фитнесом, играю в баскетбол и волейбол, читаю, смотрю фильмы, хожу в походы. В детстве занимался шахматами и борьбой. Считаю, что главное в человеке - честность и желание двигаться вперёд.}
+
+\makecvheader
+
+\cvsection{УМЕНИЯ}
+\begin{center}
+  \begin{multicols}{3}
+    \cvlistitem{Python 3, C}{}
+    \cvlistitem{Jupyter Notebook, \LaTeX}{}
+    \cvlistitem{Матанализ, линейная алгебра}{}
+    \columnbreak
+    \cvlistitem{Различные методы   программирования, алгоритмы }{}
+    \cvlistitem{}{}
+    \cvlistitem{VK/Telegram API}{}
+            \columnbreak
+
+    \cvlistitem{Русский, английский, основы немецкого}{}
+    \cvlistitem{С друзьями реализуем \\ мелкие проекты}{}
+    
+  \end{multicols}
+\end{center}
+
+\cvsection{ОБРАЗОВАНИЕ}
+\medskip
+\begin{multicols}{2}
+
+    \cvuniversity{Факультет компьютерных наук}{НИУ ВШЭ}{2020 -- 2024}{}
+  \begin{itemize}
+      \item Прикладная математика и информатика
+      \item Текущий средний балл 8.83 из 10
+  \end{itemize}
+
+
+  \cvuniversity{Московский институт электроники и \mbox{математики} }{НИУ ВШЭ}{2019 -- 2020}{}
+  \begin{itemize}
+      \item Прикладная математика
+      \item Средний балл: 8.26 из 10
+      \item Ушёл, так как решил учиться на ФКН
+  \end{itemize}
+  
+  
+  \cvuniversity{Школа IT-решений}{КРОК}{2018}{}
+  \begin{itemize}
+      \item Участие в курсе опроса пользователей
+      \item Посещение лекций и семинаров по различным темам
+      \item Презентация и защита проекта
+  \end{itemize}
+    \columnbreak
+
+
+  \cvuniversity{Школа "Гимназия на Юго-Западе №1543"}{}{2012 -- 2019}{}
+  \begin{itemize}
+      \item Класс с углублённым изучением математики
+      \item Окончание с оценками хорошо и отлично
+  \end{itemize}
+
+    \cvuniversity{Летняя олимпиадныя физмат школа}{}{август 2015}{Белоруссия}
+  \begin{itemize}
+        \item Успешное окончание школы
+        \item Прохождения курса по полотовке к проведению физических опытов 
+  \end{itemize}
+  
+  \cvuniversity{Курс подготовки к олимпиаде "Максвелл"\ в образовательном центре "Сириус"}{}{апрель 2016}{Сочи, Россия}
+  \begin{itemize}
+        \item Успешное освоение материала
+        \item Диплом второй степени в олимпиаде
+  \end{itemize}
+  
+  
+\end{multicols}
+
+\medskip
+\cvsection{ОПЫТ В ПРОЕКТАХ/РАБОТЕ}
+
+\cvexperience{Работа над проектом "Методы построения и анализа предкового графа рекомбинаций"}{<<Международная лаборатория статистической и вычислительной геномики>>}{2020 (8 месяцев)}{Москва, Россия}{}
+\begin{itemize}
+  \item Разработка метода для датировки событий в фиксированной топологии ARG
+  \item Разработка алгоритмов для оценки топологии ARG
+  \item Программная реализация алгоритмов на Python 3
+  \item Оценка точности и времен работы
+\end{itemize}
+
+\divider
+
+\cvexperience{Совместная работа над проектом <<Аудиобот>> (\href{https://vk.com/messagetotext}{vk.com/messagetotext})} {<<КРОК>>}{2018}{Москва, Россия}{}
+\begin{itemize}
+  \item Главный менеджер проекта
+  \item Написание бота для ВКонтакте, распознающего голосовые сообщения
+  \item Работа с vk\_api, обработка звука
+  \item Грамота за успешное участие
+  \item Бот работает, >1000 подписчиков сейчас
+\end{itemize}
+
+\medskip
+\cvsection{УЧАСТИЕ В ОЛИМПИАДАХ}
+\medskip
+\begin{itemize}{}
+  \item{Призёр Всероса по информатике, математике, физике 2017 (региональный этап)}{}
+  
+  \item{Олимпиада "Высшая проба"\ по математике, диплом первой степени 2018}{}
+
+  \item{Всероссийская олимпиада "Максвелл" , диплом второй степени 2016}{}
+  
+\end{itemize}
+
+
+
+\end{document}
